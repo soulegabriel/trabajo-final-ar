@@ -7,7 +7,9 @@
 body .fondo{
     width: 100%;
     height: 100%;
-    background-image: url(imagenes/fondo.jpg);
+    background-image: url(../imagenes/fondo.jpg);
+    background-attachment: fixed;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -40,6 +42,7 @@ header .logo{
     height: 250px;
     justify-content: center;
     align-items: center;
+    
     
     
 }
@@ -132,7 +135,7 @@ aside{
     margin: 20px 0 20px 0;
     justify-self: center;
     align-self: center;
-    background-image: url(imagenes/fondo2.jpg);
+    background-image: url(../imagenes/fondo2.jpg);
 }
 .publicidad:hover figure{
     background-color: #893ce2;
@@ -295,6 +298,7 @@ footer .menu5{
      justify-content: center;
      align-items: center;
      margin-top: 5px;
+    
 }
 footer .menu5 img{
     width: 350px;
